@@ -1,0 +1,10 @@
+//create a place 
+POST http://localhost:3000/users/ 
+Content-Type: application/json
+
+{
+        "name":"Sachin",
+        "email":"demo@gmail.com",
+        "password":"1234",
+        "isAdmin" : true
+}
